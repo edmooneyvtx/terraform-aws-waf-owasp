@@ -70,7 +70,7 @@ variable "rule_blacklisted_ips_action_type" {
   description = "Rule action type. Either BLOCK, ALLOW, or COUNT (useful for testing)"
 }
 
-variable tags {
+variable "tags" {
   type        = map
   description = "A mapping of tags to assign to all resources"
   default     = {}
